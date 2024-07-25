@@ -27,10 +27,10 @@ const Projects = () => {
               <VscLinkExternal/>
             </div>
 
-            <p className=" text-sm md:text-md text-justify leading-relaxed text-gray-400 mt-2 ">
+            <p className=" text-sm md:text-md text-justify md:text-balance leading-relaxed text-gray-400 mt-2 ">
               {project.introduction}
             </p>
-            <p className=" flex text-sm md:text-md gap-4 leading-relaxed text-gray-400 mt-2 ">
+            <p className=" flex flex-wrap text-sm md:text-md gap-2 text-justify leading-relaxed text-gray-400 mt-2 ">
               {project.technologies.map((technology) => (
                 <p
                   className=" bg-slate-950  text-blue-500 py-1 px-2 rounded-md"

@@ -23,7 +23,7 @@ const About = () => {
         my professional journey in web development. As a recent graduate, I have
         developed a strong foundation in HTML, CSS, and JavaScript, along with
         experience in modern frameworks like React.js and Next.js.
-        <br />I am passionate about creating responsive and user-friendly
+        <br /><br/>I am passionate about creating responsive and user-friendly
         interfaces and am committed to continuous learning and growth in the
         field. I'm excited to contribute to innovative and impactful web
         projects. Let's build something amazing together!
