@@ -1,4 +1,11 @@
 export const projects = [
+
+  {
+    heading: "AI Content Generator",
+    introduction: "An AI content generator utilizing predefined templates. This project demonstrates my ability to integrate AI with web development, focusing on efficient content generation and management using a modern tech stack.",
+    url: "https://ai-content-generator-delta.vercel.app/",
+    technologies: ["TypeScript", "Tailwind CSS", "PostgreSQL", "Drizzle ORM", "Shadcn UI", "Clerk"]
+  },
   {
     heading: "Blog Website",
     introduction: "A blog website developed using the MERN stack. This project highlights my proficiency in building full-stack web applications, with a focus on creating a seamless user experience and dynamic content management.",
