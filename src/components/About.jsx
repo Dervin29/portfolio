@@ -1,6 +1,7 @@
 import React from "react";
 import { BsDownload } from "react-icons/bs";
-import pdf from "../assets/Resume.pdf";
+import pdf from "../assets/cv.pdf";
+
 
 const About = () => {
   const handleDownload = () => {
