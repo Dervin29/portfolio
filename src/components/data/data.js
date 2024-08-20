@@ -1,10 +1,16 @@
 export const projects = [
 
   {
+    "heading": "LiveDocX - Collaborative Document Editor",
+    "introduction": "A collaborative document editor that allows multiple users to edit the same document in real-time. This project demonstrates my expertise in building real-time applications with robust document management, commenting systems, and user authentication.",
+    "url": "https://live-docx-amber.vercel.app/",
+    "technologies": ["Next.js", "TypeScript", "Liveblocks", "Lexical Editor", "ShadCN", "Tailwind CSS"]
+  },
+  {
     heading: "AI Content Generator",
     introduction: "An AI content generator utilizing predefined templates. This project demonstrates my ability to integrate AI with web development, focusing on efficient content generation and management using a modern tech stack.",
     url: "https://ai-content-generator-delta.vercel.app/",
-    technologies: ["TypeScript", "Tailwind CSS", "PostgreSQL", "Drizzle ORM", "Shadcn UI", "Clerk"]
+    technologies: ["TypeScript", "Tailwind CSS", "PostgreSQL", "Drizzle ORM", "ShadCN", "Clerk"]
   },
   {
     heading: "Blog Website",

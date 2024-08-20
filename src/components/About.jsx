@@ -7,7 +7,7 @@ const About = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = pdf;
-    link.download = "file.pdf";
+    link.download = "resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

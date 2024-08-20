@@ -38,7 +38,7 @@ const Projects = () => {
                 >
                   {technology}
                 </p>
-              ))}
+              )).slice(0, 3)}
             </p>
           </div>
         </motion.a>
