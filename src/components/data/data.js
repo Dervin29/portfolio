@@ -1,55 +1,89 @@
 export const projects = [
+  {
+    heading: "Roomify AI",
+    introduction:
+      "An AI-powered room transformation platform that allows users to redesign and visualize interior spaces with different styles. This project demonstrates my ability to build modern, responsive applications with optimized image handling and clean user experiences.",
+    url: "https://romify-ai.vercel.app/",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "ShadCN",
+    ],
+  },
 
   {
-    "heading": "LiveDocX - Collaborative Document Editor",
-    "introduction": "A collaborative document editor that allows multiple users to edit the same document in real-time. This project demonstrates my expertise in building real-time applications with robust document management, commenting systems, and user authentication.",
-    "url": "https://live-docx-amber.vercel.app/",
-    "technologies": ["Next.js", "TypeScript", "Liveblocks", "Lexical Editor", "ShadCN", "Tailwind CSS"]
+    heading: "LiveDocX - Collaborative Document Editor",
+    introduction:
+      "A collaborative document editor that allows multiple users to edit the same document in real-time. This project demonstrates my expertise in building real-time applications with robust document management, commenting systems, and user authentication.",
+    url: "https://live-docx-amber.vercel.app/",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Liveblocks",
+      "Lexical Editor",
+      "ShadCN",
+      "Tailwind CSS",
+    ],
   },
+
   {
     heading: "AI Content Generator",
-    introduction: "An AI content generator utilizing predefined templates. This project demonstrates my ability to integrate AI with web development, focusing on efficient content generation and management using a modern tech stack.",
-    url: "https://ai-content-generator-delta.vercel.app/",
-    technologies: ["TypeScript", "Tailwind CSS", "PostgreSQL", "Drizzle ORM", "ShadCN", "Clerk"]
+    introduction:
+      "An AI content generator utilizing predefined templates. This project demonstrates my ability to integrate modern web technologies with scalable content management workflows.",
+    url: "https://github.com/Dervin29/Ai_Content_Generator",
+    technologies: [
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "ShadCN",
+      "Clerk",
+    ],
   },
+
   {
     heading: "Blog Website",
-    introduction: "A blog website developed using the MERN stack. This project highlights my proficiency in building full-stack web applications, with a focus on creating a seamless user experience and dynamic content management.",
+    introduction:
+      "A blog website developed using the MERN stack. This project highlights my proficiency in building full-stack web applications, with a focus on creating a seamless user experience and dynamic content management.",
     url: "https://github.com/Dervin29/Blog-Website",
-    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "CSS"]
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "CSS"],
   },
+
   {
     heading: "Real-Time Chat Application",
-    introduction: "A real-time chat application that enables users to send and receive messages instantly. This project leverages Firebase for real-time database and authentication, showcasing my skills in building interactive and responsive web applications.",
+    introduction:
+      "A real-time chat application that enables users to send and receive messages instantly. This project leverages Firebase for real-time database and authentication, showcasing my skills in building interactive and responsive web applications.",
     url: "https://github.com/Dervin29/chat-application",
-    technologies: ["React.js", "CSS", "Firebase"]
+    technologies: ["React.js", "CSS", "Firebase"],
   },
+
   {
     heading: "Gemini Clone",
-    introduction: "A Gemini clone developed using the Gemini API. This project demonstrates my ability to work with external APIs and build interactive, responsive web applications.",
+    introduction:
+      "A Gemini clone developed using the Gemini API. This project demonstrates my ability to work with external APIs and build interactive, responsive web applications.",
     url: "https://gemini-clone-24.netlify.app",
-    technologies: ["React.js", "CSS"]
+    technologies: ["React.js", "CSS"],
   },
+
   {
     heading: "Notes App",
-    introduction: "A simple notes app that allows users to add, edit, delete, and search notes. This project showcases my skills in building user-friendly interfaces and managing state with React.",
+    introduction:
+      "A simple notes app that allows users to add, edit, delete, and search notes. This project showcases my skills in building user-friendly interfaces and managing state with React.",
     url: "https://scribblesync-notes-app.netlify.app/",
-    technologies: ["React.js", "CSS"]
+    technologies: ["React.js", "CSS"],
   },
 ];
-
-
-
 
 export const educationData = [
   {
     degree: "BSc in Mathematics Electronics and Computer Science (MEC)",
     college: "St. Joseph's University, Bangalore",
-    year: "2019-2022"
+    year: "2019-2022",
   },
   {
     degree: "MSc in Computer Science",
     college: "St. Joseph's University, Bangalore",
-    year: "2022-2024"
-  }
+    year: "2022-2024",
+  },
 ];
