@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { projects } from "../components/data/data";
+import { useState } from "react";
+import { projects } from "../constants/data.js";
 import { VscLinkExternal } from "react-icons/vsc";
 import { motion } from "framer-motion";
 
@@ -13,7 +13,7 @@ const Projects = () => {
   const startIndex = (page - 1) * ITEMS_PER_PAGE;
   const currentProjects = projects.slice(
     startIndex,
-    startIndex + ITEMS_PER_PAGE
+    startIndex + ITEMS_PER_PAGE,
   );
 
   return (
