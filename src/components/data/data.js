@@ -1,15 +1,23 @@
 export const projects = [
   {
+    heading: "AI Resume Analyzer",
+    introduction:
+      "An AI-powered resume evaluation platform that analyzes resumes against job descriptions, generates ATS scores, and provides structured improvement feedback. Built with a focus on real-world hiring workflows, PDF processing, and AI-driven analysis pipelines.",
+    url: "https://ai-resume-analyzer-pied-six.vercel.app/",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "AI Integration",
+      "File Processing",
+    ],
+  },
+  {
     heading: "Roomify AI",
     introduction:
       "An AI-powered room transformation platform that allows users to redesign and visualize interior spaces with different styles. This project demonstrates my ability to build modern, responsive applications with optimized image handling and clean user experiences.",
     url: "https://romify-ai.vercel.app/",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "ShadCN",
-    ],
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ShadCN"],
   },
 
   {
