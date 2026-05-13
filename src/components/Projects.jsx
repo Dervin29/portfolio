@@ -53,7 +53,7 @@ const Projects = () => {
 
               {/* Tech stack */}
               <div className="flex flex-wrap gap-2">
-                {project.technologies.slice(0, 3).map((tech) => (
+                {project.technologies.map((tech) => (
                   <span
                     key={tech}
                     className="bg-slate-950 text-blue-400 text-xs py-1 px-2 rounded-md"

@@ -9,7 +9,7 @@ export const projects = [
       "TypeScript",
       "Tailwind CSS",
       "AI Integration",
-      "File Processing",
+      "PuterJS",
     ],
   },
   {
@@ -17,7 +17,7 @@ export const projects = [
     introduction:
       "An AI-powered room transformation platform that allows users to redesign and visualize interior spaces with different styles. This project demonstrates my ability to build modern, responsive applications with optimized image handling and clean user experiences.",
     url: "https://romify-ai.vercel.app/",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "ShadCN"],
+    technologies: ["React", "TypeScript", "Tailwind CSS", "ShadCN", "PuterJS"],
   },
   {
     heading: "Hangman Game",
